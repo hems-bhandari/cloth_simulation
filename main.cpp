@@ -10,9 +10,9 @@ const float PARTICLE_SIZE = 1.0f;
 const float GRAVITY_FORCE = 10.0f;
 const float SIMULATION_STEP = 0.1f;
 
-const int GRID_ROWS = 10;
-const int GRID_COLS = 10;
-const float LINK_DISTANCE = 30.0f;
+const int GRID_ROWS = 100;
+const int GRID_COLS = 100;
+const float LINK_DISTANCE = 4.0f;
 
 int main() {
     sf::RenderWindow window(sf::VideoMode(SCREEN_WIDTH, SCREEN_HEIGHT), "Cloth Simulation");
